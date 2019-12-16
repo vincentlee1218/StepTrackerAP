@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=StepTracker
+comment0.text=\ This\ question\ involves\ the\ implementation\ of\ a\ fitness\ tracking\ system\ that\ is\ represented\ by\ the\ StepTracker\ class.\ A\ StepTracker\ object\ is\ created\ with\ a\ paramter\ that\ defines\ the\ minimum\ number\ of\ steps\ that\ must\ be\ taken\ for\ a\ day\ to\ be\ considered\ active.\r\n\ <p>\ The\ StepTracker\ class\ provides\ a\ constructor\ and\ the\ following\ methods.\r\n\ <p>\ addDailySteps,\ which\ acculumates\ information\ about\ steps,\ in\ readings\ taken\ once\ per\ day\r\n\ <br>\ activeDays,\ which\ reeturns\ the\ number\ of\ active\ days\r\n\ <br>\ averageSteps,\ which\ returns\ the\ average\ number\ of\ steps\ per\ day,\ calculated\ by\ dividing\ the\ total\ number\ of\ steps\ taken\ by\ the\ number\ of\ days\ tracked.\r\n
+comment1.params=minimum
+comment1.target=StepTracker(int)
+comment1.text=\ Creates\ a\ StepTracker\ object\ with\ minimum\ steps\ per\ day\ to\ be\ considered\ an\ active\ day.\r\n\ <br>\ Initializes\ day,\ activeDay,\ and\ totalSteps\ to\ 0.\r\n\ @param\ minimum\ Sets\ the\ number\ of\ minimum\ steps.\r\n
+comment2.params=steps
+comment2.target=void\ addDailySteps(int)
+comment2.text=\ Adds\ daily\ steps.\r\n\ <p>\ Adds\ one\ day,\ and\ if\ the\ daily\ steps\ is\ at\ least\ the\ minimum,\ adds\ an\ active\ day.\r\n\ @param\ steps\ Number\ of\ steps\ taken\ in\ the\ day.\r\n
+comment3.params=
+comment3.target=int\ activeDays()
+comment3.text=\ Returns\ the\ number\ of\ active\ days.\r\n\ @return\ Number\ of\ active\ days.\r\n
+comment4.params=
+comment4.target=double\ averageSteps()
+comment4.text=\ Returns\ the\ average\ number\ of\ steps.\ Returns\ 0\ if\ no\ days\ have\ been\ recorded.\r\n\ @return\ totalSteps\ /\ day\ (the\ average\ steps\ per\ day)\ <br>\ 0\ if\ there\ is\ no\ step\ data.\r\n
+numComments=5
